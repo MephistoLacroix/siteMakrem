@@ -1,6 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+}
 body {
     color: red;
 }
+.logo {
+    height: 9vh;
+}
 .nav_bar {
-    color: blue;
+    background-color: blue;
+}
+.links {
+    height: 9vh;
+    color: red;
+    display: flex;
+    flex-direction: rows;
+    justify-content: center;
+    display: flex;
+}
+.LinkItem {
+    color: red;
+    padding-left: 60px;
+    padding-right: 60px;
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+    list-style-type: none;
+    text-decoration: none;
 }

@@ -29,5 +29,9 @@ body {
     align-items: center;
     background-color: lightblue;
     list-style-type: none;
+}
+.LinkItem a {
+    font-size: 50px;
+    font-weight: 600;
     text-decoration: none;
 }
